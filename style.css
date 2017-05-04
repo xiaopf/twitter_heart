@@ -1,0 +1,26 @@
+#heart{
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	margin:500px auto;
+}
+
+.start{
+	background: url('heart_spirte.png') left center no-repeat;
+}
+
+.animate{
+	background: url('heart_spirte.png') no-repeat;
+	animation: heart_open 1s steps(28);
+	background-position: right center;
+	/* transform: scale(5, 5); */
+}
+@keyframes heart_open {
+	0%{
+		background-position: left center;
+	}
+	100%{
+		background-position: right center;
+	}
+}
+
