@@ -7,13 +7,13 @@
 
 .start{
 	background: url('heart_spirte.png') left center no-repeat;
+	/* transform: scale(.5, .5); */
 }
 
 .animate{
 	background: url('heart_spirte.png') no-repeat;
-	animation: heart_open 1s steps(28);
-	background-position: right center;
-	/* transform: scale(5, 5); */
+	animation: heart_open 1s steps(28) forwards;
+	/* transform: scale(.5, .5); */
 }
 @keyframes heart_open {
 	0%{
